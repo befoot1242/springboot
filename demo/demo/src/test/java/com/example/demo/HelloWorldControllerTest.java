@@ -13,7 +13,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 public class HelloWorldControllerTest {
 
 	@Test
-	void HelloWorldが取得されることを確認(@Autowired MockMvc mvc) throws Exception {
+	void Controller_HelloWorldが取得されることを確認(@Autowired MockMvc mvc) throws Exception {
 
 		mvc.perform(
 				MockMvcRequestBuilders.get("/"))
